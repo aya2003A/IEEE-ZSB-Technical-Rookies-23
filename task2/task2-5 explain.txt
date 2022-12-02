@@ -1,0 +1,20 @@
+Insertion sort:-
+it inserts each item into its proper place in the final 
+list by moving the current data element past the already sorted values and repeatedly interchanging it with the 
+preceding value until it is in its correct place.
+
+algorithm:-
+we need to compare
+A[K] with A[K–1], then with A[K–2], A[K–3], and so on until we meet an element A[J]the last one.
+insertion sort has a quadratic running time (O(n2)).
+Even in the average case, the insertion sort algorithm will have to make at least (K–1)/2
+comparisons
+or
+Iterate from arr[1] to arr[N] over the array. 
+Compare the current element (key) to its predecessor. 
+If the key element is smaller than its predecessor, compare it to the elements before. Move the greater elements one position up to make space for the swapped element.
+
+time complexity:-O(N^2) 
+space complexity:-O(1)
+it is a stable algorithm.
+stable sorting algorithm:-how the algorithm treats equal (or repeated) elements
